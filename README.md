@@ -66,13 +66,17 @@ Task11-Recipe-Card-Page/
 ## 🚀 How to Run the Project Locally
 Since this project uses pure HTML5 and CSS3:
 
-1. **Directly in Any Browser:**
-   - Download or clone this repository.
-   - Navigate to the `Task11-Recipe-Card-Page` folder.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/dharmarayank946/Recipe-Card-Page.git
+   cd Recipe-Card-Page
+   ```
+
+2. **Directly in Any Browser:**
    - Double-click `index.html` to open it in Google Chrome, Microsoft Edge, Mozilla Firefox, or Safari.
    - No terminal, Node.js, npm, or build step is required!
 
-2. **Using a Local Server (Optional):**
+3. **Using a Local Server (Optional):**
    - You can also view it using VS Code Live Server or Python's built-in server:
      ```bash
      python -m http.server 8000
@@ -81,21 +85,19 @@ Since this project uses pure HTML5 and CSS3:
 
 ---
 
-## 🌐 How to Deploy to GitHub Pages
-To host this project publicly on GitHub Pages without any build steps:
+## 🌐 GitHub Pages Deployment & Live Link
+This project is configured for instant hosting via GitHub Pages:
 
-1. Create a new repository on GitHub (or use your existing repository).
-2. Upload the project files (`index.html`, `style.css`, `fried-rice.jpg`, `README.md`).
-3. In GitHub, go to **Settings** > **Pages** (under the "Code and automation" menu on the left).
-4. Under **Build and deployment**:
+- **GitHub Repository:** [https://github.com/dharmarayank946/Recipe-Card-Page](https://github.com/dharmarayank946/Recipe-Card-Page)
+- **Live Demo (GitHub Pages):** [https://dharmarayank946.github.io/Recipe-Card-Page/](https://dharmarayank946.github.io/Recipe-Card-Page/)
+
+### Enabling GitHub Pages (if not already active):
+1. In the GitHub repository, navigate to **Settings** > **Pages** (under "Code and automation").
+2. Under **Build and deployment**:
    - **Source:** Select `Deploy from a branch`.
-   - **Branch:** Select `main` (or `master`) and folder `/ (root)` or your task folder.
+   - **Branch:** Select `main` and folder `/ (root)`.
    - Click **Save**.
-5. Wait 1–2 minutes for GitHub Pages to complete deployment.
-6. Your live website URL will be:
-   ```text
-   https://<your-username>.github.io/<repository-name>/
-   ```
+3. GitHub Pages will build and deploy the site automatically in 1–2 minutes.
 
 ---
 
