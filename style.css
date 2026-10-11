@@ -93,9 +93,9 @@ body {
 
 .recipe-img {
   width: 100%;
-  height: auto;
-  max-height: 420px;
+  height: 380px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -332,6 +332,10 @@ body {
 
   .recipe-card {
     border-radius: 16px;
+  }
+
+  .recipe-img {
+    height: 250px;
   }
 
   .recipe-content {
